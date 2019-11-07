@@ -1,7 +1,7 @@
 package psi
 
 import (
-	"github.com/prometheus/procfs"
+	"github.com/prometheus/procfs" // possibly @0.0.5
 
 	"github.com/influxdata/telegraf"
 	"github.com/influxdata/telegraf/plugins/inputs"
