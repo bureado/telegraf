@@ -16,7 +16,7 @@ func (*PSIStats) Description() string {
 }
 
 func (*PSIStats) SampleConfig() string {
-	return ``
+	return `# d00d`
 }
 
 func (s *PSIStats) Gather(acc telegraf.Accumulator) error {
